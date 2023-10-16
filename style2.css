@@ -38,6 +38,9 @@ header{
     position: relative;
     overflow: hidden;
 }
+.menu-productos a{
+    white-space: nowrap;
+}
 .menu-productos:hover{
     overflow: initial;
 }

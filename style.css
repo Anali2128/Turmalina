@@ -43,6 +43,7 @@ header{
     display: flex;
     font-size: 25px;
     color: salmon;
+    text-align: center;
 }
 .buttons .productosContenedor{
     display: flex;
@@ -51,6 +52,9 @@ header{
 .menu-productos{
     position: relative;
     overflow: hidden;
+}
+.menu-productos a{
+    white-space: nowrap;
 }
 .menu-productos:hover{
     overflow: initial;
