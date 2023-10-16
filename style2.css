@@ -25,24 +25,27 @@ header{
 }
 
 .buttons{
-    padding: 65px 20px 30px 0px;
     gap: 50px;
-    text-align: center;
     display: flex;
     font-size: 25px;
     color: salmon;
 }
-menu-productos{
+.buttons .productosContenedor{
     display: flex;
     flex-direction: row;
-    position: relative;
 }
-.opciones{
-    position: absolute;
+.menu-productos{
+    position: relative;
     overflow: hidden;
 }
 .menu-productos:hover{
     overflow: initial;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: max-content;
 }
 
 .btn-menu{

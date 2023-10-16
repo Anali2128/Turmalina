@@ -39,9 +39,7 @@ header{
 }
 
 .buttons{
-
     gap: 50px;
-    text-align: center;
     display: flex;
     font-size: 25px;
     color: salmon;
@@ -52,16 +50,18 @@ header{
 }
 .menu-productos{
     position: relative;
-}
-.opciones{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
     overflow: hidden;
 }
 .menu-productos:hover{
     overflow: initial;
 }
+.opciones{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: max-content;
+}
+
 .btn-menu{
     display: none;
 }
