@@ -13,6 +13,7 @@ header{
     border-radius: 30px;
     padding-left: 15px;
     padding-right: 15px;
+    align-items: center;
 }
 .logoTurmalina{
     border-radius: 20px;
@@ -31,6 +32,18 @@ header{
     font-size: 25px;
     color: salmon;
 }
+menu-productos{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.opciones{
+    position: relative;
+    overflow: hidden;
+}
+.menu-productos:hover{
+    overflow: initial;
+}
 
 .btn-menu{
     display: none;
@@ -39,12 +52,9 @@ header{
 .formsearch{
     display: flex;
     justify-content: center;
-    padding: 65px 900px 900px 500px;
     max-width: calc(100vh - 140px);
     width: 100%;
-    position: absolute;
     border-radius: 6px;
-    z-index: 99999;
     overflow-y: auto;
     overflow-x: hidden;
     
