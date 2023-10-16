@@ -46,13 +46,17 @@ header{
     font-size: 25px;
     color: salmon;
 }
-.menu-productos{
+.buttons .productosContenedor{
     display: flex;
     flex-direction: row;
-    position: absolute;
+}
+.menu-productos{
+    position: relative;
 }
 .opciones{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
     overflow: hidden;
 }
 .menu-productos:hover{

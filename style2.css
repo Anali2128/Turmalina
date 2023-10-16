@@ -35,10 +35,10 @@ header{
 menu-productos{
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: relative;
 }
 .opciones{
-    position: relative;
+    position: absolute;
     overflow: hidden;
 }
 .menu-productos:hover{
