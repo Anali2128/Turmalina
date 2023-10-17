@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;1,9..40,300&family=Poppins:ital,wght@1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+*{
+    font-family: 'DM SANS', sans-serif;
+}
+.detalle{
+    background-color: beige;
+    color: blue;
+    font-size: 30px;
+}
+.producto{
+    color: blueviolet;
+    font-size: 20px;
+}
